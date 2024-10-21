@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadoo</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+    
+</head>
+<body>
+    <header class="header ">
+        <div class="header_row">
+            <div class="container">
+                <div class="head_wrapper ">
+                    <div class="logotip"><img src="./img/header_img/Logo.svg" alt="logotip"></div>
+                    <div class="nav-menu">
+                        <ul class="navigator">
+                            <a href="#!"> <li>Desitnations</li></a>
+                            <a href="#!"> <li>Hotels</li></a>
+                            <a href="#!"> <li>Flights</li></a>
+                            <a href="#!"> <li>Bookings</li></a>
+                            <a href="#!"> <li>Login</li></a>
+                        </ul>
+                    </div>
+                    <div class="sign_up">
+                        <div class="btn_up">
+                            <button> Sign up</button>
+                        </div>
+                        <button class="language_btn" id="languageDropdown">
+                            <p id="currentLanguage"> EN</p>
+                            <img src="./img/header_img/Vector 1.svg" alt="arow">
+                        </button>
+                    </div>
+
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+    
+                    <nav class="nav-mobile">
+                        <ul class="nav-list">
+                            <a href="#Desitnations" class="nav-link-color"><li>Desitnations</li></a>
+                            <a href="#Service" class="nav-link-color"><li>Service</li></a>
+                            <a href="#trips" class="nav-link-color"><li>Next Trip</li></a>
+                            <a href="#questions" class="nav-link-color"><li>Questions</li></a>
+                            <a href="#client" class="nav-link-color"><li>Partner</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div id="languageOptions" class="language-options">
+            <ul>
+                <li data-lang="en">Русский</li>
+                <li data-lang="es">Español</li>
+                <li data-lang="fr">Français</li>
+            </ul>
+        </div>
+        
+
+        <section class="head_main " >
+            <div class="container">
+                <div class="main_content_row">
+                    <div class="text_content">
+                        <p class="initial_paragraph">Best Destinations around the world</p>
+                        <h1>Travel, enjoy  and live a new and full life</h1>
+                        <p class="second_paragraph">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                        <div class="find_out_more">
+                            <a href="#!"> Find out more</a>
+                            <img src="./img/header_img/play-circle-thin-svgrepo-com.svg" alt="play-circle">
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="img_content">
+                        <img src="./img/header_img/person_main.png" alt="person_main">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <section id="Service"  class="service" data-aos="fade-up"  >
+            <div class="container">
+                <div class="service_wrapper">
+                    <img src="./img/section_service/Group 5.png" alt="Ваша фотография" class="photo">
+                    <div class="heading_service">
+                        <p>CATEGORY</p>
+                        <h2>We Offer Best Services</h2>
+                    </div>
+                    
+                    <div class="gallery_row">
+                        <div class="card">
+                            <img src="./img/section_service/Group1.svg" alt="foto1">
+                            <h3>Calculated Weather </h3>
+                            <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                        </div>
+                    
+                        <div class="card">
+                            <img class="plane" src="./img/section_service/Group2.svg" alt="foto2">
+                            <h3>Best Flights </h3>
+                            <p>Engrossed listening. Park gate sell they west hard for the.</p>
+                        </div>
+                        <div class="square"></div>   
+
+                        <div class="card">
+                            <img src="./img/section_service/Group3.svg" alt="foto3">
+                            <h3>Local Events </h3>
+                            <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+                        </div>
+                    
+                        <div class="card">
+                            <img src="./img/section_service/Group4.svg" alt="foto4">
+                            <h3>Customization </h3>
+                            <p>We deliver outsourced aviation services for military customers </p>
+                        </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Desitnations" class="top_destinations" data-aos="fade-up">
+            <div class="container">
+                <div class="destinations-wrapper">
+                    <div class="heading_destinations">
+                        <p>Top Selling</p>
+                        <h2>Top Destinations</h2>
+                    </div>
+
+                    <div class="destinations_rows">
+                        <div class="card_city">
+                            <img src="./img/section_Top_Destinations/Rectangle1.png" alt="city1">
+                            <div class="city_text">
+                                <h4>Rome, Italty</h4>
+                                <p>$5,42k</p>
+                            </div>
+                            <div class="navig_rows">
+                                <p>10 Days Trip</p>
+                            </div>
+                        </div>
+
+                        <div class="card_city">
+                            <img src="./img/section_Top_Destinations/Rectangle2.png" alt="city2">
+                            <div class="city_text">
+                                <h4>London, UK</h4>
+                                <p>$4.2k</p>
+                            </div>
+                            <div class="navig_rows">
+                                <p>12 Days Trip</p>
+                            </div>
+                        </div>
+
+                        <div class="card_city">
+                            <img src="./img/section_Top_Destinations/Rectangle3.png" alt="city3">
+                            <div class="city_text">
+                                <h4>Full Europe</h4>
+                                <p>$15k</p>
+                            </div>
+                            <div class="navig_rows">
+                                <p>28 Days Trip</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trips" class="next_trip " data-aos="fade-up">
+            <div class="container">
+                <div class="trip_wrapper">
+                    <div class="trip_text_content">
+                        <p>Easy and Fast</p>
+                        <h4>Book your next trip in 3 easy steps</h4>
+
+                        <div class="trip_card">
+                            <img src="./img/section_next_trip/Group1.svg" alt="img1">
+                            <div class="card_texts">
+                                <h5>Choose Destination</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                            </div>
+                        </div>
+
+                        <div class="trip_card">
+                            <img src="./img/section_next_trip/Group2.svg" alt="img2">
+                            <div class="card_texts">
+                                <h5>Make Payment</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                            </div>
+                        </div>
+
+                        <div class="trip_card">
+                            <img src="./img/section_next_trip/Group3.svg" alt="img3">
+                            <div class="card_texts">
+                                <h5>Reach Airport on Selected Date</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.  </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="trip_imf_content">
+                        <div class="foto_content">
+                            <img src="./img/section_next_trip/foto_trip_girl.png" alt="foto_trip_girl">
+                            <h5>Trip To Greece</h5>
+                            <div class="info_img">
+                                <p class="individual_paragraph">14-29 June</p>
+                                <p>by Robbin joseph</p>
+                            </div>
+                            <div class="foto_icons">
+                                <img src="./img/section_next_trip/min_elements/LEAF.svg" alt="icons1">
+                                <img src="./img/section_next_trip/min_elements/map icon.svg" alt="icons2">
+                                <img src="./img/section_next_trip/min_elements/send.svg" alt="icons3">
+                            </div>
+                            <div class="buil_info">
+                                
+                                <p>24 people going</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="client" class="partners "data-aos="fade-up">
+            <div class="container">
+                <div class="partners_rows ">
+                    <img class="partner-image" src="./img/testimals/1.png" alt="">
+                    <img class="partner-image" src="./img/testimals/2.png" alt="">
+                    <img class="partner-image" src="./img/testimals/image 30.svg" alt="">
+                    <img class="partner-image" src="./img/testimals/image 31.svg" alt="">
+                    <img class="partner-image" src="./img/testimals/230413-6.png" alt="">
+                    <img class="partner-image" src="./img/testimals/230413-7.png" alt="">
+                    <img class="partner-image" src="./img/testimals/230113-10.png" alt="">
+                    
+                </div>
+
+        </section>
+
+        <section id="questions" class="input "data-aos="fade-up">
+            <div class="container">
+                <div class="input_wrapper">
+                    <div class="heading_text_input">
+                        <h5>Subscribe to get information, latest news and other interesting offers about Jadoo</h5>
+                    </div>
+                    <div class="input_email">
+                        <input type="email" placeholder="&#9993; your email">
+                        <button>Subscribe</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer >
+        <div class="container">
+            <div class="footer_information "data-aos="fade-up">
+                <div class="logo_foot">
+                    <h4> <span class="animated-text"></span>Jadoo.</h4>
+                    <p>Book your trip in minute, get full Control for much longer.</p>
+                </div>
+                <div class="info_foot">
+                    <div class="foot_colum">
+                        <h5>Company</h5>
+                        <a href="#!">About</a>
+                        <a href="#!">Careers</a>
+                        <a href="#!">Mobile</a>
+                    </div>
+
+                    <div class="foot_colum">
+                        <h5>Contact</h5>
+                        <a href="#!">Help/FAQ</a>
+                        <a href="#!">Press</a>
+                        <a href="#!">Affilates</a>
+                    </div>
+
+                    <div class="foot_colum">
+                        <h5>More</h5>
+                        <a href="#!">Airlinefees</a>
+                        <a href="#!">Airline</a>
+                        <a href="#!">Low fare tips</a>
+                    </div>
+                </div>
+                <div class="foot_icons">
+                    <div class="social_icons">
+                        <img src="./img/footer/feecbook.svg" alt="feecbook">
+                        <img class="inst" src="./img/footer/Social.png" alt="instagram">
+                        <img src="./img/footer/Social (1).svg" alt="twitter">
+                    </div>
+                    <h5>Discover our app</h5>
+                    <div class="app_icons">
+                        <img src="./img/footer/Google Play.svg" alt="Google Play">
+                        <img src="./img/footer/Play Store.svg" alt="Play Store">
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="telegram_im ">
+            <p> Наверстал </p><a href="#!"> <img src="./img/footer/telegram-svgrepo-com (3).svg" alt=""> Khhasan4ik</a>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>

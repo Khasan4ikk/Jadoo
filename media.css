@@ -1,0 +1,287 @@
+@media (max-width:376px) {
+    .square {
+        bottom: 230px;
+        left: 220px;
+    }
+
+    .info_foot {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+}
+
+@media (max-width: 405px) {
+
+
+.square {
+
+bottom: 250px;
+left: 250px;
+
+}
+
+}
+
+@media (max-width:415px) {
+.square {
+display: none;
+    }
+
+.buil_info p::after {
+
+margin-left: 50px;
+    }
+
+    .partners_rows {
+        gap: 10px;
+    }
+}
+@media (max-width: 431px) {
+    .partners_rows img:last-child {
+      display: none; 
+    }
+  }
+  
+  
+  @media (max-width: 506px) {
+
+    .input_wrapper {
+        padding: 20px 30px;
+
+
+    }
+    .heading_text_input h5 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: var(--color-tertiary);
+        
+        max-width: 881px;
+        margin-bottom: 20px;
+        
+        }
+
+        .input_email input {
+            padding: 10px 20px;
+
+            flex-grow: 1;
+            background-color: white;
+            width: 100px;
+        }
+
+
+        .input_email button {
+            font-size: 14px;
+            padding: 10px 10px;
+
+        }
+}
+    
+
+
+@media (max-width: 850px) {
+    .gallery_row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .heading_service h2 {
+
+        margin-bottom: 45px;
+    }
+
+}
+
+@media (max-width: 795px) {
+    .heading_text_input h5 {
+        margin-bottom: 30px;
+    }
+.input_wrapper {
+        padding: 30px 50px;
+
+        margin-bottom: 166px;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .destinations_rows {
+        margin-bottom: 60px;
+    }
+    .trip_wrapper {
+        flex-direction: column;
+        padding: 15px;
+        
+    }
+
+.trip_text_content p {
+text-align: center;
+margin-bottom: 25px;
+}
+
+.trip_text_content h4 {
+
+text-align: center;
+
+}
+.trip_card {
+
+    justify-content: center;
+}
+
+.card_texts h5 {
+    text-align: center;
+}
+
+.foto_content {
+    padding: 20px 25px;
+    border-radius: 26px;
+    box-shadow: 20px -30px 50px 0 #bee6ff;
+}
+}
+
+@media (max-width: 955px) {
+
+    .footer_information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+
+    .logo_foot h4 {
+        text-align: center;
+    }
+
+    .logo_foot p {
+        text-align: center;
+    }
+
+    .foot_colum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .foot_icons h5 {
+        text-align: center;
+    }
+
+    .foot_icons {
+
+align-items: center;
+
+    }
+}
+@media (max-width: 970px) {
+.container {
+overflow: hidden;
+}
+
+.navigator {
+display: none;
+}
+
+.burger {
+display: block;
+margin-right:  10px;
+}
+
+.sign_up {
+gap: 30px;
+}
+
+.text_content h1 {
+font-size: 70px;
+text-align: center;
+line-height: 70px;
+}
+.main_content_row {
+flex-direction: column;
+gap: 50px;
+}
+
+.initial_paragraph {
+text-align: center;
+}
+
+.second_paragraph {
+text-align: center;
+}
+.find_out_more {
+    justify-content: center;
+}
+
+.img_content img {
+max-width: 500px;
+}
+
+.partners_rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.input_wrapper {
+    margin: 0 20px 30px 20px;
+    
+}
+}
+@media (max-width: 990px) {
+.destinations_rows {
+justify-content: center;
+    }
+
+    .destinations_rows::after {
+display: none;
+    }
+
+    .heading_destinations h2 {
+
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .trip_wrapper {
+        justify-content: space-between;
+        
+    }
+
+    .info_foot {
+
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1270px) {
+.photo {
+
+top: -30px;
+right: 60px;
+z-index: -1;
+
+
+    }
+}
+
+
+@media (min-width:795px) and (max-width: 835px) {
+    .heading_text_input h5 {
+        
+        margin-bottom: 20px;
+    }
+}
+
+
